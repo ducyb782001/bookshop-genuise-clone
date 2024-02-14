@@ -1,0 +1,63 @@
+/* common css */
+:root {
+  --primary-background-color: white;
+  --primary-color: #e4002b;
+  --primary-gray: #f2f3f4;
+}
+
+.primary-color {
+  color: var(--primary-color) !important;
+}
+
+.background-color {
+  background-color: var(--primary-background-color);
+}
+
+.sub-background {
+  background-color: var(--primary-gray);
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.truncate-2-line {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+/* End section */
+
+/* Dropdown hover  */
+@media (min-width: 576px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+    margin-top: 0;
+  }
+
+  .dropdown-menu {
+    display: block;
+    opacity: 0;
+    transition: all 0.2s;
+  }
+}
+/* End section */
+
+/* search input  */
+.input-search-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.input-search {
+  height: 40px;
+  width: 100%;
+  padding-left: 14px;
+}
+/* end section  */

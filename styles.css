@@ -102,11 +102,11 @@
 }
 
 .max-width-section {
-  max-width: 1258px;
+  max-width: 1458px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
   @media screen and (max-width: 992px) {
     max-width: 960px;
   }
